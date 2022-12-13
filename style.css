@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(92, 189, 189);
+    
+   
+    
+}
+
+
+
+header{
+    background-color: rgba(38, 145, 194, 0.803);
+    
+   
+
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    width:auto;
+    display:flex;
+    align-items: justify;
+    margin:0px;
+    padding:0px;
+    border-radius:10px;
+    
+}
+nav{
+    flex:1;
+    text-align:center;
+}
+
+nav ul li{
+    float:left;
+    list-style: none;
+     margin-right: 40px;
+    position: relative;
+    
+   
+}
+nav ul li a{
+    display:block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(26, 66, 64);
+    font-size: 14px;
+    padding: 20px 14px;
+  
+    
+
+}
+nav ul li ul{
+   display:none;
+   position:absolute;
+   background-color:rgb(66, 121, 121);
+   padding:10px;
+   border-radius: 0px 0px 4px 4px;
+  
+
+}
+nav ul li:hover ul {
+    display:block;
+   
+   
+ 
+ }
+nav ul li ul li{
+    width:180px;
+    border-radius: 4px;
+}
+nav ul li ul li a{
+    padding: 8px 14px;
+  
+}
+nav ul li a:hover{
+    color:blue;
+}
+nav ul li ul li a:hover{
+    background-color: #f3f3f3;
+    
+}
+
+.wrapper{ 
+    margin:0 auto ; /*top right bottom left */
+    width: 1000px;
+
+
+
+}
+
+@media (max-width: 600px){
+    section{
+        -webkit-flex-direction:column;
+        flex-direction:column;
+
+    }
+}
+
+.firstsect{
+    display:block;
+    background-color:rgb(10, 48, 48);
+    height: 260px;
+}
+
+
+.firsthalf{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+
+.title{
+    position: relative;
+    box-sizing: border-box;
+    border:4px solid #000;
+    text-align: center;
+    font-size:xx-large;
+    color: black;
+    background: white;
+    
+}
+
+
+.row{
+    display:flex;
+    align-items: center;
+    width:100%;
+    justify-content:center;
+    font-size: x-large;
+   
+
+}
+.row .col{
+    display: flex;
+    flex-direction:column;
+    align-items:justify;
+    margin: 60px;
+}
+
+.textdesign:hover{
+    transition:transform .4s ease;
+    transform:scale(2.2);
+}
+
+.secondsect{
+    background-color:rgb(10, 48, 48);
+    height:300px;
+    color:aliceblue;
+    
+}
+.subhead h2{
+    font-size:larger;
+    text-align: justify;
+    text-indent: 1%;
+}
+.subhead p{
+    font-size: medium;
+    padding: 5px;
+    
+}
+
